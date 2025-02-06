@@ -8,4 +8,4 @@ Assortment of packs and components in <kbd>Oxpecker.Solid</kbd> style.
 
 The following projects have usable bindings:
 
-Oxpecker.Solid.Lucide
+[Oxpecker.Solid.Lucide](https://github.com/shayanhabibi/Oxpecker.Solid.JitBox/tree/master/Oxpecker.Solid.Lucide)
