@@ -4,9 +4,16 @@
     "start": "dotnet fable watch --cwd Oxpecker.Solid.JitBox.Tests/ -o output -e .fs.jsx -s --run vite"
   },
   "dependencies": {
+    "@kobalte/core": "^0.13.7",
+    "@lucide/lab": "^0.1.2",
     "@tailwindcss/postcss": "^4.0.1",
     "@tailwindcss/vite": "^4.0.1",
+    "class-variance-authority": "^0.7.1",
+    "clsx": "^2.1.1",
+    "lucide-react": "^0.474.0",
+    "lucide-solid": "^0.474.0",
     "solid-js": "^1.9.2",
+    "tailwind-merge": "^2.6.0",
     "tailwindcss": "^4.0.1",
     "tailwindcss-animate": "^1.0.7"
   },

@@ -1,5 +1,6 @@
 source https://api.nuget.org/v3/index.json
 
+nuget FParsec
 nuget FSharp.Core
 nuget Fable.Browser.Dom 2.18.0
 nuget Fable.Core 4.3.0

@@ -22,6 +22,9 @@ NUGET
       Fable.Core (>= 3.2.8) - restriction: >= netstandard2.0
       FSharp.Core (>= 4.7.2) - restriction: >= netstandard2.0
     Fable.Core (4.3)
+    FParsec (1.1.1)
+      FSharp.Core (>= 4.3.4) - restriction: || (>= net45) (>= netstandard2.0)
+      System.ValueTuple (>= 4.4) - restriction: >= net45
     FSharp.Core (9.0.101)
     Oxpecker.Solid (0.4.2)
       Fable.Browser.Dom (>= 2.18) - restriction: >= net8.0
@@ -31,3 +34,4 @@ NUGET
     Oxpecker.Solid.FablePlugin (0.4.3) - restriction: >= net8.0
       Fable.AST (>= 4.5) - restriction: >= net6.0
       FSharp.Core (>= 9.0.100) - restriction: >= net6.0
+    System.ValueTuple (4.5) - restriction: >= net45

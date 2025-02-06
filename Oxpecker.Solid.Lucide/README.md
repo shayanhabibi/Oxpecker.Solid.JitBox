@@ -1,12 +1,13 @@
-module App
+# Oxpecker.Solid.Lucide
 
-open Oxpecker.Solid
-open Oxpecker.Solid.JitBox.Components
-let Button = Button
-open Oxpecker.Solid.Types
+Bindings for Lucide and Lucide-Lab icon packs.
+
+Auto generated. In Oxpecker.Solid style.
+
+## Usage
+
+```fs
 open Oxpecker.Solid.Lucide
-
-let mutable style = size.lg
 
 [<SolidComponent>]
 let App() =
@@ -17,3 +18,5 @@ let App() =
         Lucide.Dot(color = "blue")
         Lucide.Dot(color = "rgb(200,200,200)")
     }
+```
+![img.png](./Docs/img.png)

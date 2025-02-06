@@ -10,6 +10,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Misc Files", "Misc Files", 
 EndProject
 Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Oxpecker.Solid.JitBox.Tests", "Oxpecker.Solid.JitBox.Tests\Oxpecker.Solid.JitBox.Tests.fsproj", "{A87FA903-F1D7-41AD-A4FE-6AF7659A36D5}"
 EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Oxpecker.Solid.Lucide", "Oxpecker.Solid.Lucide\Oxpecker.Solid.Lucide.fsproj", "{1A1DEAB6-4D65-4768-882D-522F0B369101}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Oxpecker.Solid.Lucide.Generator", "Oxpecker.Solid.Lucide.Generator\Oxpecker.Solid.Lucide.Generator.fsproj", "{0068491A-A132-44EA-AF0C-3F01C2A79AF0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,5 +28,13 @@ Global
 		{A87FA903-F1D7-41AD-A4FE-6AF7659A36D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A87FA903-F1D7-41AD-A4FE-6AF7659A36D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A87FA903-F1D7-41AD-A4FE-6AF7659A36D5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1A1DEAB6-4D65-4768-882D-522F0B369101}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A1DEAB6-4D65-4768-882D-522F0B369101}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A1DEAB6-4D65-4768-882D-522F0B369101}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A1DEAB6-4D65-4768-882D-522F0B369101}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0068491A-A132-44EA-AF0C-3F01C2A79AF0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0068491A-A132-44EA-AF0C-3F01C2A79AF0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0068491A-A132-44EA-AF0C-3F01C2A79AF0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0068491A-A132-44EA-AF0C-3F01C2A79AF0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

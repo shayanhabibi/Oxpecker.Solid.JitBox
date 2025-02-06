@@ -12,5 +12,9 @@
   <ItemGroup>
     <EmbeddedResource Remove="public\**" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Oxpecker.Solid.JitBox\Oxpecker.Solid.JitBox.fsproj" />
+    <ProjectReference Include="..\Oxpecker.Solid.Lucide\Oxpecker.Solid.Lucide.fsproj" />
+  </ItemGroup>
   <Import Project="..\.paket\Paket.Restore.targets" />
 </Project>

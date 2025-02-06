@@ -5,10 +5,8 @@
     <TargetFramework>net9.0</TargetFramework>
   </PropertyGroup>
   <ItemGroup>
-    <Content Include="paket.references" />
-    <Compile Include="Utils\Helpers.fs" />
-    <Compile Include="Types\Button.fs" />
-    <Compile Include="Components\Button.fs" />
+    <Compile Include="Program.fs" />
+    <Content Include="README.md" />
   </ItemGroup>
   <Import Project="..\.paket\Paket.Restore.targets" />
 </Project>
