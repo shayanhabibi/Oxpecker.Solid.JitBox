@@ -37,6 +37,6 @@ let buttonVariants =
 [<SolidComponent>]
 let Button ( props : Button ) =
     let o,b = Solid.splitProps(props, [|"size";"variant"|])
-    button( class' = buttonVariants({|size=o?size;variant=props.variant|}) ).attr("{...b} __", undefined) {
+    button( class' = buttonVariants({|size=o?size;variant=props.variant|}) ).spread(b) {
              props.children
         }

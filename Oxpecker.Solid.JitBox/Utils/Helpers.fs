@@ -11,16 +11,17 @@ type [<Erase>] Lib =
     static member inline clsx ( classes : obj ) : string = jsNative
     static member inline cn ( classes : string * bool ) : string = classes |> Lib.clsx |> Lib.twMerge
     static member inline cn ( classes : string array ) : string = classes |> Lib.clsx |> Lib.twMerge
-    static member inline cn ( classes : string list ) : string = classes |> Lib.clsx |> Lib.twMerge
     static member inline cn ( classes : string ) : string = classes |> Lib.clsx |> Lib.twMerge
     [<Import("cva","class-variance-authority")>]
     static member inline cva ( orig : string ) ( object : 'T) : obj -> string = jsNative
 
 type [<Erase>] Solid =
     [<ImportMember("solid-js")>]
-    static member inline splitProps (o : obj, p: string array): obj * obj = jsNative
+    static member inline splitProps (o : 'T, p: string array): 'T * 'T = jsNative
     [<ImportMember("solid-js")>]
     static member inline mergeProps (o: obj, p: obj) : obj = jsNative
+    [<Emit("$0.children")>]
+    static member inline children (o: 'T) : Fragment = jsNative
 
 [<Global>]
 type JitNode() =

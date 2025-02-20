@@ -8,7 +8,46 @@
     <Content Include="paket.references" />
     <Compile Include="Utils\Helpers.fs" />
     <Compile Include="Types\Button.fs" />
+    <Folder Include="Types\Interfaces\Corvu\" />
+    <Folder Include="Types\Interfaces\Kobalte\" />
+    <Compile Include="Types\Accordion.fs" />
+    <Compile Include="Types\Alert.fs" />
+    <Compile Include="Types\AlertDialog.fs" />
+    <Compile Include="Types\Avatar.fs" />
+    <Compile Include="Types\Badge.fs" />
+    <Compile Include="Types\BadgeDelta.fs" />
+    <Compile Include="Types\Breadcrumb.fs" />
+    <Compile Include="Types\KobalteButton.fs" />
+    <Compile Include="Types\Callout.fs" />
+    <Compile Include="Types\Card.fs" />
+    <Compile Include="Types\Checkbox.fs" />
+    <Compile Include="Types\Collapsible.fs" />
+    <Compile Include="Types\Combobox.fs" />
+    <Compile Include="Types\Progress.fs" />
+    <Compile Include="Types\Dialog.fs" />
+    <Compile Include="Types\Command.fs" />
     <Compile Include="Components\Button.fs" />
+    <Compile Include="Components\Accordion.fs" />
+    <Compile Include="Components\Alert.fs" />
+    <Compile Include="Components\AlertDialog.fs" />
+    <Compile Include="Components\Avatar.fs" />
+    <Compile Include="Components\Badge.fs" />
+    <Compile Include="Components\BadgeDelta.fs" />
+    <Compile Include="Components\Breadcrumb.fs" />
+    <Compile Include="Components\KobalteButton.fs" />
+    <Compile Include="Components\Callout.fs" />
+    <Compile Include="Components\Card.fs" />
+    <Compile Include="Components\Checkbox.fs" />
+    <Compile Include="Components\Combobox.fs" />
+    <Compile Include="Components\Progress.fs" />
+    <Compile Include="Components\Dialog.fs" />
+    <Compile Include="Components\Command.fs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Oxpecker.Solid.Cmdk\Oxpecker.Solid.Cmdk.fsproj" />
+    <ProjectReference Include="..\Oxpecker.Solid.Corvu\Oxpecker.Solid.Corvu.fsproj" />
+    <ProjectReference Include="..\Oxpecker.Solid.Kobalte\Oxpecker.Solid.Kobalte.fsproj" />
+    <ProjectReference Include="..\Oxpecker.Solid.Lucide\Oxpecker.Solid.Lucide.fsproj" />
   </ItemGroup>
   <Import Project="..\.paket\Paket.Restore.targets" />
 </Project>

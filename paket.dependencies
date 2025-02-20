@@ -1,7 +1,15 @@
 source https://api.nuget.org/v3/index.json
 
+nuget AngleSharp
 nuget FParsec
 nuget FSharp.Core
 nuget Fable.Browser.Dom 2.18.0
 nuget Fable.Core 4.3.0
-nuget Oxpecker.Solid 0.4.2
+nuget Newtonsoft.Json
+nuget Selenium.WebDriver
+nuget Oxpecker.ViewEngine
+
+source https://nuget.pkg.github.com/PartasAU/index.json
+
+nuget Oxpecker.Solid 1.33.12
+nuget Oxpecker.Solid.FablePlugin 1.33.10

@@ -1,15 +1,16 @@
 {
   "private": "true",
   "scripts": {
-    "start": "dotnet fable watch --cwd Oxpecker.Solid.JitBox.Tests/ -o output -e .fs.jsx -s --run vite"
+    "start": "fable watch --cwd Oxpecker.Solid.JitBox.Tests/ -o output -e .fs.jsx -s --run vite"
   },
   "dependencies": {
-    "@kobalte/core": "^0.13.7",
+    "@kobalte/core": "^0.13.8",
     "@lucide/lab": "^0.1.2",
     "@tailwindcss/postcss": "^4.0.1",
     "@tailwindcss/vite": "^4.0.1",
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
+    "cmdk-solid": "^1.1.2",
     "lucide-react": "^0.474.0",
     "lucide-solid": "^0.474.0",
     "solid-js": "^1.9.2",
