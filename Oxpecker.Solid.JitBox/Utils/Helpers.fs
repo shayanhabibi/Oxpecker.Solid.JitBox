@@ -29,3 +29,10 @@ type JitNode() =
     member val children : Fragment = jsNative with get,set
     member inline this.className
         with set (value : string) = this.class' <- value
+
+[<AutoOpen; Erase>]
+module Operators =
+    [<Emit("$0 && $1")>]
+    let (&&=) (conditional: 'T) (output: 'M): 'M = jsNative
+    [<Import("splitProps","solid-js")>]
+    let (/=) (value: 'T) (splitter: string array) : 'T * 'T = jsNative

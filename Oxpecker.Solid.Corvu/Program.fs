@@ -5,6 +5,8 @@ open Oxpecker.Solid
 open Fable.Core
 open System
 
+#nowarn 64
+
 [<Erase; AutoOpen>]
 module private Helpers =
     let [<Erase; Literal>] accordion = "@corvu/accordion"
@@ -306,6 +308,9 @@ module Drawer =
     [<Erase; Import("Description", drawer)>]
     type Description() =
         inherit Dialog.Description()
+    [<Erase; Import("Portal", drawer)>]
+    type Portal() =
+        inherit Dialog.Portal()
 
 [<Erase; Import("Root", otpField)>]
 type OtpField() =

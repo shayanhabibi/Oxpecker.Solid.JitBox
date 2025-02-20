@@ -35,3 +35,7 @@ type CommandSeparator() =
 [<Global>]
 type CommandItem() =
     inherit Command.Item()
+    
+[<Global>]
+type CommandShortcut() =
+    inherit span()

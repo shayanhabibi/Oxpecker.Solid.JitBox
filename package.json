@@ -1,7 +1,8 @@
 {
   "private": "true",
   "scripts": {
-    "start": "fable watch --cwd Oxpecker.Solid.JitBox.Tests/ -o output -e .fs.jsx -s --run vite"
+    "start": "fable watch --cwd Oxpecker.Solid.JitBox.Tests/ -o output -e .fs.jsx -s --run vite",
+    "watch": "fable watch --cwd Oxpecker.Solid.JitBox.Tests/ -o output -e .fs.jsx -s"
   },
   "dependencies": {
     "@kobalte/core": "^0.13.8",

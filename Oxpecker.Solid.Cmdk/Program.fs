@@ -3,6 +3,8 @@
 open Fable.Core
 open Oxpecker.Solid
 
+#nowarn 64
+
 [<Erase; AutoOpen>]
 module private Helper =
     let [<Erase; Literal>] cmdk = "cmdk-solid"

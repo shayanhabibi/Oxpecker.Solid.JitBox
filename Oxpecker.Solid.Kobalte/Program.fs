@@ -6,6 +6,8 @@ open System.Runtime.CompilerServices
 open Oxpecker.Solid
 open Fable.Core
 
+#nowarn 64
+
 [<Erase; AutoOpen>]
 module private Helper =
     let [<Erase; Literal>] collapsible = "@kobalte/core/collapsible"
@@ -1058,6 +1060,7 @@ type NavigationMenu() =
     member val skipDelayDuration : bool = jsNative with get,set
     member val focusOnAlt : bool = jsNative with get,set
     member val forceMount : bool = jsNative with get,set
+    member val gutter: int = jsNative with get,set
 
 [<RequireQualifiedAccess; Erase>]
 module NavigationMenu =

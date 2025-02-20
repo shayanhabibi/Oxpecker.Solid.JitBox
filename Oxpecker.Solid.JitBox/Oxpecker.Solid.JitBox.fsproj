@@ -26,6 +26,18 @@
     <Compile Include="Types\Progress.fs" />
     <Compile Include="Types\Dialog.fs" />
     <Compile Include="Types\Command.fs" />
+    <Compile Include="Types\ContextMenu.fs" />
+    <Compile Include="Types\Drawer.fs" />
+    <Compile Include="Types\DropdownMenu.fs" />
+    <Compile Include="Types\HoverCard.fs" />
+    <Compile Include="Types\Label.fs" />
+    <Compile Include="Types\Menubar.fs" />
+    <Compile Include="Types\NavigationMenu.fs" />
+    <Compile Include="Types\NumberField.fs" />
+    <Compile Include="Types\OtpField.fs" />
+    <Compile Include="Types\Pagination.fs" />
+    <Compile Include="Types\Popover.fs" />
+    <Compile Include="Types\RadioGroup.fs" />
     <Compile Include="Components\Button.fs" />
     <Compile Include="Components\Accordion.fs" />
     <Compile Include="Components\Alert.fs" />
@@ -42,6 +54,18 @@
     <Compile Include="Components\Progress.fs" />
     <Compile Include="Components\Dialog.fs" />
     <Compile Include="Components\Command.fs" />
+    <Compile Include="Components\ContextMenu.fs" />
+    <Compile Include="Components\Drawer.fs" />
+    <Compile Include="Components\DropdownMenu.fs" />
+    <Compile Include="Components\HoverCard.fs" />
+    <Compile Include="Components\Label.fs" />
+    <Compile Include="Components\Menubar.fs" />
+    <Compile Include="Components\NavigationMenu.fs" />
+    <Compile Include="Components\NumberField.fs" />
+    <Compile Include="Components\OtpField.fs" />
+    <Compile Include="Components\Pagination.fs" />
+    <Compile Include="Components\Popover.fs" />
+    <Compile Include="Components\RadioGroup.fs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Oxpecker.Solid.Cmdk\Oxpecker.Solid.Cmdk.fsproj" />

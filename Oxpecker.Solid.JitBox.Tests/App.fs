@@ -15,7 +15,8 @@ let import = (
     AlertDialogOverlay,
     AlertDialogPortal,
     AlertDialogTitle,
-    AlertDialogTrigger
+    AlertDialogTrigger,
+    AlertDialogDescription
     )
 open Oxpecker.Solid.Types
 open Oxpecker.Solid.Lucide
@@ -37,5 +38,23 @@ let App() =
         Button() { "Test" }
         Alert() {
             AlertTitle() {"Hello"}
+        }
+        AlertDialog() {
+            AlertDialogTrigger() {
+                Button(variant= variant.outline) {
+                    "Show Dialog"
+                }
+            }
+            AlertDialogContent() {
+                AlertDialogTitle() { "Alert Dialog" }
+                AlertDialogDescription() {
+                    Accordion() {
+                        AccordionItem(value="item2") {
+                            AccordionTrigger() {"Accordion"}
+                            AccordionContent() {"Im in an alert dialog!"}
+                        }
+                    }
+                }
+            }
         }
     }
